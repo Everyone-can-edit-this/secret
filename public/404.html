@@ -1,45 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link
-      rel="shortcut icon"
-      href="./assets/images/icon.png"
-      type="image/png"
-    />
-    <title>secred page</title>
 
-    <link rel="stylesheet" href="./css/master.css" />
+<head>
+  <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png" />
+  <title>secred page</title>
 
-    <script src="./js/preload.js"></script>
-  </head>
+  <link rel="stylesheet" href="./css/master.css" />
 
-  <body>
-    <nav>
-      <div class="logo">
-        <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
-        <h1>secred page</h1>
-      </div>
+  <script src="/uv/uv.bundle.js" charset="UTF-8"></script>
+  <script src="/uv/uv.config.js"></script>
+  <script src="./js/preload.js"></script>
 
-      <p id="time"></p>
+  <script>
+    atOptions = {
+      'key': 'fc0ad22bd8c1ea22c8c08df927121e8f',
+      'format': 'iframe',
+      'height': 60,
+      'width': 468,
+      'params': {}
+    };
+  </script>
+</head>
 
-      <div class="navitems">
-        <div class="navitem"><a href="/">Home</a></div>
-        <div class="navitem"><a href="/gs.html">Games</a></div>
-        <div class="navitem"><a href="/apps.html">Apps</a></div>
-        <div class="navitem"><a href="/emulator.html">Emulator</a></div>
-        <div class="navitem"><a href="/search.html">Search</a></div>
-      </div>
-    </nav>
+<body theme="main">
+  <nav>
+    <div class="logo">
+      <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
+      <h1>secred page</h1>
+    </div>
+
+    <p id="time"></p>
+
+    <div class="navitems">
+      <div class="navitem"><a selected href="/">home</a></div>
+      <div class="navitem"><a href="gs.html">games</a></div>
+      <div class="navitem"><a href="apps.html">apps</a></div>
+      <div class="navitem"><a href="emulator.html">emulator</a></div>
+      <div class="navitem"><a href="search.html">search</a></div>
+    </div>
+  </nav>
 
     <div class="center-container">
       <h1>404</h1>
-      <p id="splash">aint nun here</p>
+      <p id="splash">oh nothing here</p>
       <br />
       <p>
         😭😭😭<br/></a>
       </p>
       <br />
-      <button onclick="window.location.href='/index.html'" class="button play">
+      <button onclick="window.location.href='./index.html'" class="button play">
         Go home?
       </button>
     </div>
